@@ -38,6 +38,7 @@
 
 html {
     box-sizing: border-box;
+    background-color: #404149;
 }
 *, *::before, *::after {
     box-sizing: inherit;
@@ -51,6 +52,7 @@ body {
     font-weight: 500;
     color: #404149;
     overflow-x: hidden;
+    background-color: #fff;
 }
 
 .wrapper {
