@@ -5,7 +5,7 @@
             header.classList.add('header__active');
         }
         else if (window.pageYOffset < 0) {
-            header.style.top = window.pageYOffset.toString;
+            header.classList.add('hed');
         }
         else {
             header.classList.remove('header__active');
