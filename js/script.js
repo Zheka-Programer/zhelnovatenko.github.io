@@ -4,6 +4,9 @@
         if (window.pageYOffset > 83) {
             header.classList.add('header__active');
         }
+        else if (window.pageYOffset < 0) {
+            header.style.top = window.pageYOffset.toString;
+        }
         else {
             header.classList.remove('header__active');
         }
