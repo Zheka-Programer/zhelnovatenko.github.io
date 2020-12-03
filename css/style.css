@@ -44,11 +44,6 @@ html {
     box-sizing: inherit;
 }
 
-body,
-html {
-  position: fixed;
-}
-
 body {
     font-family: 'Oswald';
     font-style: normal;
